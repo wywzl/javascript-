@@ -1,0 +1,25 @@
+倒叙输出数字
+
+
+
+<html>
+<head>
+<meta charset="utf-8">
+
+</head>
+
+<body>
+
+<script type="text/javascript">
+var n = parseInt(window.prompt("input"));
+var a,b,c,d;
+a=n%10;
+n=n-a;
+b=n%100/10;
+n=n-b*10;
+c=n/100;
+d=a*100+b*10+c;
+document.write(d);    
+</script>	
+</body>
+</html>
